@@ -14,6 +14,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         debugPrint("Hello ")
+        
+        debugPrint("How r u")
     }
 
 
