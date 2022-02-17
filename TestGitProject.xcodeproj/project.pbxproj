@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A10AA3327BCCD350081ADA8 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A10AA3227BCCD350081ADA8 /* StringExtensions.swift */; };
+		4A10AA3627BCCDC40081ADA8 /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A10AA3527BCCDC40081ADA8 /* LoginRequest.swift */; };
+		4A10AA3827BCCDD90081ADA8 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A10AA3727BCCDD90081ADA8 /* LoginResponse.swift */; };
+		4A10AA3A27BCCDF50081ADA8 /* LoginData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A10AA3927BCCDF50081ADA8 /* LoginData.swift */; };
+		4A10AA3C27BCCE120081ADA8 /* LoginHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A10AA3B27BCCE120081ADA8 /* LoginHandler.swift */; };
+		4A10AA3E27BCCE390081ADA8 /* LoginApiResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A10AA3D27BCCE390081ADA8 /* LoginApiResource.swift */; };
+		4A10AA4127BCD1520081ADA8 /* ValidationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A10AA4027BCD1520081ADA8 /* ValidationResponse.swift */; };
+		4A10AA4327BCD1660081ADA8 /* LoginValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A10AA4227BCD1660081ADA8 /* LoginValidation.swift */; };
+		4A5940CF27BE280700E2CEB2 /* LoginValidationUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5940CE27BE280700E2CEB2 /* LoginValidationUnitTests.swift */; };
 		4A7764BC27B62BAF00E0BCE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7764BB27B62BAF00E0BCE1 /* AppDelegate.swift */; };
 		4A7764BE27B62BAF00E0BCE1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7764BD27B62BAF00E0BCE1 /* SceneDelegate.swift */; };
 		4A7764C027B62BAF00E0BCE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7764BF27B62BAF00E0BCE1 /* ViewController.swift */; };
@@ -37,6 +46,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4A10AA3227BCCD350081ADA8 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		4A10AA3527BCCDC40081ADA8 /* LoginRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
+		4A10AA3727BCCDD90081ADA8 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		4A10AA3927BCCDF50081ADA8 /* LoginData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginData.swift; sourceTree = "<group>"; };
+		4A10AA3B27BCCE120081ADA8 /* LoginHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginHandler.swift; sourceTree = "<group>"; };
+		4A10AA3D27BCCE390081ADA8 /* LoginApiResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginApiResource.swift; sourceTree = "<group>"; };
+		4A10AA4027BCD1520081ADA8 /* ValidationResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationResponse.swift; sourceTree = "<group>"; };
+		4A10AA4227BCD1660081ADA8 /* LoginValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginValidation.swift; sourceTree = "<group>"; };
+		4A5940CE27BE280700E2CEB2 /* LoginValidationUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginValidationUnitTests.swift; sourceTree = SOURCE_ROOT; };
 		4A7764B827B62BAF00E0BCE1 /* TestGitProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestGitProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A7764BB27B62BAF00E0BCE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4A7764BD27B62BAF00E0BCE1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +96,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A10AA2D27BCCC980081ADA8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4A10AA3227BCCD350081ADA8 /* StringExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4A10AA2E27BCCCB70081ADA8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4A10AA3427BCCD970081ADA8 /* ApiModels */,
+				4A10AA3927BCCDF50081ADA8 /* LoginData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4A10AA2F27BCCCCB0081ADA8 /* Handlers */ = {
+			isa = PBXGroup;
+			children = (
+				4A10AA3B27BCCE120081ADA8 /* LoginHandler.swift */,
+			);
+			path = Handlers;
+			sourceTree = "<group>";
+		};
+		4A10AA3027BCCCE40081ADA8 /* DataResource */ = {
+			isa = PBXGroup;
+			children = (
+				4A10AA3D27BCCE390081ADA8 /* LoginApiResource.swift */,
+			);
+			path = DataResource;
+			sourceTree = "<group>";
+		};
+		4A10AA3127BCCCFC0081ADA8 /* Validation */ = {
+			isa = PBXGroup;
+			children = (
+				4A10AA3F27BCD1260081ADA8 /* Response */,
+				4A10AA4227BCD1660081ADA8 /* LoginValidation.swift */,
+			);
+			path = Validation;
+			sourceTree = "<group>";
+		};
+		4A10AA3427BCCD970081ADA8 /* ApiModels */ = {
+			isa = PBXGroup;
+			children = (
+				4A10AA3527BCCDC40081ADA8 /* LoginRequest.swift */,
+				4A10AA3727BCCDD90081ADA8 /* LoginResponse.swift */,
+			);
+			path = ApiModels;
+			sourceTree = "<group>";
+		};
+		4A10AA3F27BCD1260081ADA8 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				4A10AA4027BCD1520081ADA8 /* ValidationResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
 		4A7764AF27B62BAF00E0BCE1 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +178,11 @@
 		4A7764BA27B62BAF00E0BCE1 /* TestGitProject */ = {
 			isa = PBXGroup;
 			children = (
+				4A10AA3127BCCCFC0081ADA8 /* Validation */,
+				4A10AA3027BCCCE40081ADA8 /* DataResource */,
+				4A10AA2F27BCCCCB0081ADA8 /* Handlers */,
+				4A10AA2E27BCCCB70081ADA8 /* Models */,
+				4A10AA2D27BCCC980081ADA8 /* Extensions */,
 				4A7764BB27B62BAF00E0BCE1 /* AppDelegate.swift */,
 				4A7764BD27B62BAF00E0BCE1 /* SceneDelegate.swift */,
 				4A7764BF27B62BAF00E0BCE1 /* ViewController.swift */,
@@ -116,6 +198,7 @@
 		4A7764D427B62BB000E0BCE1 /* TestGitProjectTests */ = {
 			isa = PBXGroup;
 			children = (
+				4A5940CE27BE280700E2CEB2 /* LoginValidationUnitTests.swift */,
 				4A7764D527B62BB000E0BCE1 /* TestGitProjectTests.swift */,
 			);
 			path = TestGitProjectTests;
@@ -192,7 +275,7 @@
 		4A7764B027B62BAF00E0BCE1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = 1;
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
@@ -261,10 +344,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A10AA3E27BCCE390081ADA8 /* LoginApiResource.swift in Sources */,
+				4A10AA3C27BCCE120081ADA8 /* LoginHandler.swift in Sources */,
 				4A7764C027B62BAF00E0BCE1 /* ViewController.swift in Sources */,
 				4A7764BC27B62BAF00E0BCE1 /* AppDelegate.swift in Sources */,
+				4A10AA4327BCD1660081ADA8 /* LoginValidation.swift in Sources */,
+				4A10AA4127BCD1520081ADA8 /* ValidationResponse.swift in Sources */,
+				4A10AA3327BCCD350081ADA8 /* StringExtensions.swift in Sources */,
+				4A10AA3627BCCDC40081ADA8 /* LoginRequest.swift in Sources */,
 				4A7764C627B62BAF00E0BCE1 /* TestGitProject.xcdatamodeld in Sources */,
+				4A10AA3A27BCCDF50081ADA8 /* LoginData.swift in Sources */,
 				4A7764BE27B62BAF00E0BCE1 /* SceneDelegate.swift in Sources */,
+				4A10AA3827BCCDD90081ADA8 /* LoginResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +363,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A5940CF27BE280700E2CEB2 /* LoginValidationUnitTests.swift in Sources */,
 				4A7764D627B62BB000E0BCE1 /* TestGitProjectTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -598,7 +690,7 @@
 				4A7764E427B62BB000E0BCE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		4A7764E527B62BB000E0BCE1 /* Build configuration list for PBXNativeTarget "TestGitProject" */ = {
 			isa = XCConfigurationList;
@@ -607,7 +699,7 @@
 				4A7764E727B62BB000E0BCE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		4A7764E827B62BB000E0BCE1 /* Build configuration list for PBXNativeTarget "TestGitProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -616,7 +708,7 @@
 				4A7764EA27B62BB000E0BCE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		4A7764EB27B62BB000E0BCE1 /* Build configuration list for PBXNativeTarget "TestGitProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -625,7 +717,7 @@
 				4A7764ED27B62BB000E0BCE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 
